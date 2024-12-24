@@ -323,6 +323,8 @@ def load_model(whisper_arch,
         "max_new_tokens": None,
         "clip_timestamps": None,
         "hallucination_silence_threshold": None,
+        "hotwords": None,
+        "multilingual": True,
     }
 
     if asr_options is not None:
